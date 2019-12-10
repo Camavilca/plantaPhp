@@ -34,8 +34,128 @@
             </div>
         </nav>
     </header>
-    <main class="mt-5" style="margin: 100px">
-            <h1>DASHBOARD</h1>
+    <main class="m-5" style="margin-top: 100px">
+        <h1 class="text-uppercase">Bienvenido</h1>
+
+        <div class="row my-5">
+            <div class="col-sm-4 col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title text-primary text-center">Ya formas parte de nuestra comunidad</h2>
+                        <h5 class="text-center text-success text-justify"> "Plantando una vida mejor" </h5>
+                        <p class="light-blue-text">
+                            es una iniciativa ambiental
+                            que trabaja en concientización y acciones de mitigación
+                            de cambio climático a través de la realización de distintas
+                            actividades como: voluntariado de empresas, talleres,
+                            festivales ambientales y produtos sustentables.
+
+                            Promovemos y acompañamos un cambio de paradigma
+                            donde el respeto y la conciencia ambiental tengan
+                            impacto en la toma de nuestras decisiones cotidianas.
+                            El recorrido que debemos emprender hacia la
+                            sustentabilidad nos interpela como
+                            individuos, empresas y gobiernos, quienes debemos
+                            trabajar juntos para cambiar nuestros hábitos y
+                            aprender a vivir responsablemente.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title text-primary text-center text-capitalice mb-5 mt-2"> Cuidados de las Plantas</h2>
+                        <p class="teal-text">
+                            En Consulta Plantas encontrarás 1.424 fichas para que sepas los Cuidados de las plantas (por tipo):
+                            Árboles y Palmeras, Arbustos, Cactus y plantas suculentas, Bulbosas, rizomatosas, tuberosas y acuáticas, Plantas de Interior, Enredaderas y Trepadoras, Anuales y Perennes, Aromáticas, Medicinales y de Huerto, Plantas Carnívoras y Orquídeas.
+
+                            Los CONSEJOS POR MESES para plantas están basados en un CLIMA TEMPLADO MEDITERRÁNEO, por lo que puede que no sirvan para plantas de climas tropicales, ecuatoriales y subtropicales.
+
+                            Puedes colaborar con Consulta Plantas enviando fotos de plantas para las galerías a info@consultaplantas.com (indica tu nombre y de donde las envías).
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title text-primary text-center mb-5 mt-3">¿Que hacemos para las plantaciones?</h2>
+                        <div class="text-left green-tex">
+                            <ul>
+                                <li>
+                                    Relevamiento socioambiental, Propuestas de espacios, autorizaciones y coordinación con la comunidad.
+                                </li>
+                                <li>
+                                    Organización de la actividad y coordinación del grupo el día del vliuntariado
+                                </li>
+                                <li>
+                                    Explicación de la actividad, instrucciones para utilizar las herramientas y cómo plantar correctamente
+                                </li>
+                                <li>
+                                    Arboles, compost, tutores, palas y todos las herramientas e insumos necesarios para la actividad
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Carousel Wrapper-->
+        <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                <li data-target="#carousel-example-2" data-slide-to="2"></li>
+            </ol>
+            <!--/.Indicators-->
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="view">
+                        <img class="d-block w-100" height="800px" src="https://i.ytimg.com/vi/B2cEh2R7Dkk/maxresdefault.jpg" alt="First slide">
+                        <div class="mask rgba-black-light"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="h3-responsive">Jornada de plantado</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view">
+                        <img class="d-block w-100" height="800px" src="https://harmonia.la/imagen_nota/huertos_comunidades.jpg?width=1200&enable=upscale" alt="Second slide">
+                        <div class="mask rgba-black-strong"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="h3-responsive">Armado de Plantao</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view">
+                        <img class="d-block w-100" height="800px" src="https://mexico.infoagro.com/wp-content/uploads/2019/08/Huertos-Urbanos.jpg" alt="Third slide">
+                        <div class="mask rgba-black-slight"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="h3-responsive">Nuevos Espacios Verdes</h3>
+                    </div>
+                </div>
+            </div>
+            <!--/.Slides-->
+            <!--Controls-->
+            <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <!--/.Controls-->
+        </div>
+        <!--/.Carousel Wrapper-->
     </main>
 
 

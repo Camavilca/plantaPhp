@@ -5,8 +5,8 @@
     $clave=$_POST['pass'];
     
     //conectar a la base de datos
-    $conexion=mysqli_connect("localhost","root","mysql","restaurant");
-    // $conexion=mysqli_connect("localhost","root","","restaurant");
+    // $conexion=mysqli_connect("localhost","root","mysql","restaurant");
+    $conexion=mysqli_connect("localhost","root","","restaurant");
     $consulta="SELECT * FROM acmin WHERE usuario_a='$usuario' AND pass='$clave'";
 
     $resultado=mysqli_query($conexion,$consulta);

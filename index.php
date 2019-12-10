@@ -16,13 +16,12 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body background="garden.jpg">
 
     <!--Main Navigation-->
     <header>
-
         <nav class="navbar navbar-expand-lg navbar-dark default-color">
-            <a class="navbar-brand" href="#"><strong>Plantas Tecsup</strong></a>
+            <a class="navbar-brand" href="index.php"><strong>Plantas Tecsup</strong></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -38,12 +37,15 @@
                         <a class="nav-link" href="login.php">Inicia sesión</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="login_admin.php" >Iniciar como administrador</a>
+                        <a class="nav-link" href="login_admin.php">Iniciar como administrador</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
+    <h1 class="text-center text-white text-uppercase" style="margin-top: 300px; font-size: 300px">
+        bienvenido
+    </h1>
 
 
     <!-- JQuery -->
