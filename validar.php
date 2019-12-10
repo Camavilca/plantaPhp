@@ -5,7 +5,8 @@ $usuario = $_POST['usu_l'];
 $clave = $_POST['con_l'];
 
 //conectar a la base de datos
-$conexion = mysqli_connect("localhost", "root", "", "restaurant");
+$conexion = mysqli_connect("localhost", "root", "mysql", "restaurant");
+// $conexion = mysqli_connect("localhost", "root", "", "restaurant");
 $consulta = "SELECT * FROM cliente WHERE Usuario='$usuario' AND Clave='$clave'";
 
 $resultado = mysqli_query($conexion, $consulta);
